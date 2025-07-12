@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <style>
+        body {
+            font-family: 'Helvetica', Arial, sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 0;
+            color: #333;
+            background: white;
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+        header {
+            text-align: center;
+            margin-bottom: 40px;
+            border-bottom: 1px solid #000;
+            padding-bottom: 20px;
+        }
+        h1 {
+            font-size: 2.5em;
+            margin-bottom: 10px;
+        }
+        .tagline {
+            font-style: italic;
+        }
+        section {
+            margin-bottom: 40px;
+        }
+        h2 {
+            border-bottom: 1px solid #000;
+            padding-bottom: 5px;
+        }
+        .work-item {
+            margin-bottom: 20px;
+        }
+        .work-item img {
+            max-width: 100%;
+            border: 1px solid #000;
+        }
+        footer {
+            text-align: center;
+            margin-top: 40px;
+            border-top: 1px solid #000;
+            padding-top: 20px;
+        }
+        a {
+            color: #000;
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>YOUR NAME</h1>
+        <p class="tagline">Brief tagline about your work</p>
+    </header>
+
+    <section id="about">
+        <h2>About</h2>
+        <p>Write a short bio about yourself and your work here.</p>
+    </section>
+
+    <section id="work">
+        <h2>My Work</h2>
+        <div class="work-item">
+            <h3>Project Title 1</h3>
+            <p>Description of your project. What it is, why you made it, etc.</p>
+            <!-- Replace with your actual image -->
+            <img src="project1-placeholder.jpg" alt="Project 1">
+        </div>
+        <div class="work-item">
+            <h3>Project Title 2</h3>
+            <p>Description of your project. What it is, why you made it, etc.</p>
+            <!-- Replace with your actual image -->
+            <img src="project2-placeholder.jpg" alt="Project 2">
+        </div>
+    </section>
+
+    <section id="contact">
+        <h2>Contact</h2>
+        <p>Email: <a href="mailto:youremail@example.com">youremail@example.com</a></p>
+        <p>Other links: <a href="#">LinkedIn</a>, <a href="#">Instagram</a></p>
+    </section>
+
+    <footer>
+        <p>&copy; 2023 Your Name. All rights reserved.</p>
+    </footer>
+</body>
+</html>
